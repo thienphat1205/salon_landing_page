@@ -1,0 +1,108 @@
+@import "../../styles/variables.less";
+
+.headerChangeColor {
+  background-color: #f7f7f7;
+  box-shadow: "4px 0 20px -5px rgb(0 0 0 / 10%)";
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  height: 80px;
+  padding: 0 20px;
+  transition: all 0.8s;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    .companyName {
+      font-size: 32px;
+      margin: 0;
+      font-weight: 600;
+      color: @primaryColor;
+      flex-grow: 1;
+      cursor: pointer;
+    }
+    .navMenu {
+      display: flex;
+      list-style: none;
+      text-align: center;
+      margin-right: 2rem;
+
+      a {
+        font-size: 20px;
+        font-weight: 600;
+        transition: all 0.5s;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      a:not(:first-child) {
+        margin-left: 1rem;
+      }
+    }
+    .navIcon {
+      display: none;
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.colorWhite {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    .container {
+      .navIcon {
+        color: #fff;
+        display: block;
+        cursor: pointer;
+        font-size: 1.8rem;
+      }
+      .navMenu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1px solid #fff;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        top: 80px;
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        height: calc(100vh - 80px);
+        a {
+          color: #fff;
+        }
+        a:not(:first-child) {
+          margin-left: 0rem;
+        }
+      }
+      .active {
+        background: #32373c;
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+      }
+    }
+  }
+}
