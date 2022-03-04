@@ -54,7 +54,7 @@ const DippingPowder = () => {
         </div>
         <Row gutter={[30, 8]}>
           <Col md={12} xs={24}>
-            <div data-aos="fade-right">
+            <div data-aos="fade-down-left">
               <ServiceList data={dataList} showTitle={false} />
             </div>
           </Col>
