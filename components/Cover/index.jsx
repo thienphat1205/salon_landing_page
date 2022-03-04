@@ -52,7 +52,9 @@ export const Cover = () => {
         </div>
         <div className={styles.viewDivider}>
           <div className={styles.divider} />
-          <p>We offer a glass of complimentary wine.</p>
+          <p style={{ textAlign: "center" }}>
+            We offer a glass of complimentary wine.
+          </p>
         </div>
       </Section>
     </>
