@@ -14,9 +14,17 @@ function HeadingText({ title = "", desc = "" }) {
         {title}
       </p>
       {desc && (
-        <p className={s.textDesc} data-aos="fade-up">
-          {desc}
-        </p>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <p className={s.textDesc} data-aos="fade-up">
+            {desc}
+          </p>
+        </div>
       )}
     </div>
   );

@@ -51,7 +51,7 @@ function Header() {
               </a>
             </Link>
           </h1>
-          <div
+          {/* <div
             className={
               click ? `${styles.navMenu} ${styles.active}` : `${styles.navMenu}`
             }
@@ -85,7 +85,7 @@ function Header() {
               className={styles.navIcon}
               style={colorChange ? { color: "#165F9B" } : {}}
             />
-          )}
+          )} */}
         </div>
       </div>
     </>

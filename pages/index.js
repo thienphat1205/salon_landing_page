@@ -1,14 +1,18 @@
 import Cover from "../components/Cover";
-import About from "../components/About";
-import TeamMember from "../components/TeamMember";
+import DeluxeSpaServices from "../components/DeluxeSpaServices";
 import MainLayout from "../layout/MainLayout";
+import SpaManicure from "../components/SpaManicure";
+import SpecialCombo from "../components/SpecialCombo";
+import DippingPowder from "../components/DippingPowder ";
 
 export default function Home() {
   return (
     <MainLayout>
       <Cover />
-      <About />
-      <TeamMember />
+      <DeluxeSpaServices />
+      <SpaManicure />
+      <SpecialCombo />
+      <DippingPowder />
     </MainLayout>
   );
 }

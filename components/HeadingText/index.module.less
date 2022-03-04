@@ -1,28 +1,31 @@
 @import "../../styles/variables.less";
 
 .root {
+  p {
+    font-family: "Libre Baskerville", serif;
+  }
   .textTitle {
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: bold;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     display: inline-block;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     cursor: pointer;
-    background-image: linear-gradient(to right,
-    #3399ff, @primaryColor);
+    background-image: linear-gradient(to right, @primaryColor, @primaryColor);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    transition: all .1s;
+    transition: all 0.1s;
     &:hover {
-        transform: skewY(5deg) scale(1.1);
-        text-shadow: .5rem 1rem 2rem rgba(#000, .2)
+      transform: skewY(5deg) scale(1.1);
+      text-shadow: 0.5rem 1rem 2rem rgba(#000, 0.2);
     }
   }
   .textDesc {
     color: @secondaryText;
-    font-size: 20px;
-    font-weight: 200;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 675px;
   }
 }

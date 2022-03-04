@@ -4,6 +4,9 @@ import s from "./index.module.less";
 function Section({ styles, children, id }) {
   return (
     <section className={s.viewSection} style={{ ...styles }} id={id}>
+      <div className={s.viewDivider}>
+        <div className={s.divider} />
+      </div>
       <div className={s.container}>{children}</div>
     </section>
   );

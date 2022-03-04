@@ -1,0 +1,61 @@
+@import "../../styles/variables.less";
+
+.root {
+  background-color: @backgroundContent;
+  padding: 40px;
+  .viewTitle {
+    display: flex;
+    justify-content: space-between;
+    .textTitle {
+      font-size: 22px;
+      font-weight: 400;
+      color: @primaryColor;
+      font-family: "Libre Baskerville", serif;
+    }
+    .textSubTitle {
+      max-width: 430px;
+      font-weight: 600;
+      font-size: 16px;
+      color: @primaryColor;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+  }
+  .viewDesc {
+    display: flex;
+    justify-content: flex-end;
+    .text {
+      max-width: 430px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: @primaryColor;
+      opacity: 0.5;
+    }
+  }
+  .itemService {
+    .viewTitleItemSercvice {
+      display: flex;
+      justify-content: space-between;
+      p {
+        font-weight: normal;
+        font-size: 22px;
+        color: #222222;
+        margin-bottom: 0;
+        font-family: "Libre Baskerville", serif;
+      }
+    }
+    .textDesc {
+      margin-bottom: 2px;
+      font-size: 16px;
+      color: #222222;
+      opacity: 0.5;
+    }
+    .divider {
+      width: 100%;
+      height: 3px;
+      background: rgba(51, 51, 51, 0.1);
+      margin: 23px 0;
+    }
+  }
+}
