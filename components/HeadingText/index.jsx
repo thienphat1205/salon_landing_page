@@ -10,7 +10,7 @@ function HeadingText({ title = "", desc = "" }) {
   }, []);
   return (
     <div className={s.root}>
-      <p className={s.textTitle} data-aos="fade-up">
+      <p className={s.textTitle} data-aos="flip-left">
         {title}
       </p>
       {desc && (
