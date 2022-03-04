@@ -26,7 +26,7 @@ const ServiceList = ({ styles = {}, data = {}, showTitle = false }) => {
         const isLastItem = idx === serviceList.length - 1;
         return (
           <div className={s.itemService}>
-            <div className={s.viewTitleItemSercvice} key={name}>
+            <div className={s.viewTitleItemSercvice} key={idx}>
               <p>{name}</p>
               <p>{price}</p>
             </div>

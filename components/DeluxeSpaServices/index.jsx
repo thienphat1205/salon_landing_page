@@ -26,7 +26,7 @@ const dataList = {
 };
 
 const dataOrganicList = {
-  title: "Peppermint Spa",
+  title: "Organic Spa",
   subTitle:
     "Scent of your choice: Lemon – Green Tea – Chocolate -White Tea – Coconut Jasmine.",
   serviceList: [
@@ -240,10 +240,10 @@ const DeluxeSpaServices = () => {
           />
         </div>
         <Row gutter={[30, 8]}>
-          <Col md={6} xs={24}>
+          <Col md={12} xs={24}>
             <div className={s.viewImage}></div>
           </Col>
-          <Col md={18} xs={24}>
+          <Col md={12} xs={24}>
             <div data-aos="fade-down-left">
               <ServiceList data={dataList} showTitle />
               <ServiceList

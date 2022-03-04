@@ -38,6 +38,17 @@ export const Cover = () => {
         <div className={styles.viewChoice}>
           <p className={styles.text1}>Best Choice Ever</p>
           <p className={styles.text2}>Our Services</p>
+          <div className={styles.line} />
+          <p className={styles.text}>
+            All services are non-refundable. We will try our best to accommodate
+            your service requests and expectations with our best efforts,
+            skills, and technicians.
+          </p>
+          <p className={styles.text}>
+            Please have all your jewelry and personal belongings in your
+            possession and protection at all times. Lush Nail Spa is not
+            responsible for any losses or damages to any personal items.
+          </p>
         </div>
         <div className={styles.viewDivider}>
           <div className={styles.divider} />
