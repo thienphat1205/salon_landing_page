@@ -244,7 +244,7 @@ const DeluxeSpaServices = () => {
             <div className={s.viewImage}></div>
           </Col>
           <Col md={12} xs={24}>
-            <div data-aos="fade-down-left">
+            <div data-aos="fade-right">
               <ServiceList data={dataList} showTitle />
               <ServiceList
                 data={dataOrganicList}
