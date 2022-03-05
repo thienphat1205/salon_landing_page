@@ -9,6 +9,9 @@ import PinknWhite from "../components/PinknWhite";
 import LightConceptGel from "../components/LightConcept";
 import AdditionServices from "../components/AdditionServices";
 import KidServices from "../components/KidServices";
+import Santitation from "../components/Santitation";
+import Map from "../components/Map";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +27,9 @@ export default function Home() {
       <LightConceptGel />
       <AdditionServices />
       <KidServices />
+      <Santitation />
+      <Map />
+      <Footer />
     </MainLayout>
   );
 }
