@@ -43,7 +43,7 @@ function Footer() {
         </div>
       </div>
       <div className={s.copyright}>
-        <p>Copyright © CTS Nail Spa. All rights reserved</p>
+        <p>Copyright © CT'S Nail Spa. All rights reserved</p>
       </div>
     </>
   );

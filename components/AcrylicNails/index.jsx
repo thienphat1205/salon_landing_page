@@ -51,7 +51,7 @@ const AcrylicNails = () => {
     <Section id="AcrylicNails">
       <div className={s.spaServices}>
         <div className={s.viewTop}>
-          <HeadingText title="AcrylicNails" />
+          <HeadingText title="Acrylic Nails" />
         </div>
         <Row gutter={[30, 8]}>
           <Col md={12} xs={24}>

@@ -47,7 +47,7 @@ function Header() {
           >
             <Link href="">
               <a className={!colorChange ? `${styles.colorWhite}` : ""}>
-                CTS Nail Spa
+                CT'S Nail Spa
               </a>
             </Link>
           </h1>
