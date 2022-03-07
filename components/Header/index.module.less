@@ -2,7 +2,7 @@
 
 .headerChangeColor {
   background-color: #fff;
-  box-shadow: "4px 0 20px -5px rgb(0 0 0 / 10%)";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
 }
 
 .header {
@@ -22,12 +22,16 @@
     height: 100%;
     margin: 0 auto;
     .companyName {
+      width: fit-content;
       font-size: 32px;
       margin: 0;
       font-weight: 600;
       color: @primaryColor;
       flex-grow: 1;
       cursor: pointer;
+      h1 {
+        color: @primaryColor;
+      }
     }
     .navMenu {
       display: flex;

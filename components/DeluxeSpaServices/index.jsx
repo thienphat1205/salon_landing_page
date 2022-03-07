@@ -241,7 +241,7 @@ const DeluxeSpaServices = () => {
         </div>
         <Row gutter={[30, 8]}>
           <Col md={12} xs={24}>
-            <div className={s.viewImage}></div>
+            <div className={s.viewImage} data-aos="zoom-in-left"></div>
           </Col>
           <Col md={12} xs={24}>
             <div data-aos="fade-down-left">

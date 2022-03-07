@@ -59,7 +59,7 @@ const DippingPowder = () => {
             </div>
           </Col>
           <Col md={12} xs={24}>
-            <div className={s.viewImage}></div>
+            <div data-aos="zoom-in-left" className={s.viewImage}></div>
           </Col>
         </Row>
       </div>

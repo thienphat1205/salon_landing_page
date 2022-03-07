@@ -55,7 +55,7 @@ const AcrylicNails = () => {
         </div>
         <Row gutter={[30, 8]}>
           <Col md={12} xs={24}>
-            <div className={s.viewImage}></div>
+            <div data-aos="zoom-in-right" className={s.viewImage}></div>
           </Col>
           <Col md={12} xs={24}>
             <div data-aos="fade-down-left">

@@ -36,7 +36,7 @@ function Header() {
       {click && <div onClick={handleClose} className={styles.overlay} />}
       <div className={className} style={colorChange ? {} : {}}>
         <div className={styles.container}>
-          <h1
+          <div
             className={styles.companyName}
             onClick={() => {
               window.scrollTo({
@@ -46,11 +46,14 @@ function Header() {
             }}
           >
             <Link href="">
-              <a className={!colorChange ? `${styles.colorWhite}` : ""}>
+              <h1
+                className={!colorChange ? `${styles.colorWhite}` : ""}
+                style={{ fontSize: "32px", fontWeight: "600", margin: 0 }}
+              >
                 CT'S Nail Spa
-              </a>
+              </h1>
             </Link>
-          </h1>
+          </div>
           {/* <div
             className={
               click ? `${styles.navMenu} ${styles.active}` : `${styles.navMenu}`
