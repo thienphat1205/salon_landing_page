@@ -41,7 +41,7 @@ const dataList = {
         "Add $17 for Gel Polish",
         "Add $5 for French Polish",
         "Add $5+ for Nail Design",
-        "Add $2/ea.for 3 or More Colors",
+        "Add $2/ea. for 3 or More Colors",
         "Add $12 for 10 Min Massage",
         "Add $6 for Sugar Scrub",
         "Add $10 for Dry Skin Treatment (Paraffin + Mud Mask)",
