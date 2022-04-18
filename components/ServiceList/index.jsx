@@ -7,6 +7,7 @@ const ServiceList = ({ styles = {}, data = {}, showTitle = false }) => {
     subTitle = "",
     serviceList = [],
     description = "",
+    isNew,
   } = data;
   return (
     <div className={s.root} style={{ ...styles }}>
@@ -22,12 +23,15 @@ const ServiceList = ({ styles = {}, data = {}, showTitle = false }) => {
         </div>
       )}
       {serviceList.map((item, idx) => {
-        const { name, price, description = [] } = item;
+        const { name, price, description = [], isNew } = item;
         const isLastItem = idx === serviceList.length - 1;
         return (
-          <div className={s.itemService}>
+          <div className={s.itemService} key={idx}>
             <div className={s.viewTitleItemSercvice} key={idx}>
-              <p>{name}</p>
+              <p>
+                {name}{" "}
+                {isNew && <span style={{ color: "#51a67f" }}>(NEW)</span>}
+              </p>
               <p>{price}</p>
             </div>
             {description.length > 0 && (

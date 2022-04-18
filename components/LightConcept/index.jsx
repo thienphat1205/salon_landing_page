@@ -8,29 +8,24 @@ import ServiceList from "../ServiceList";
 const dataList = {
   serviceList: [
     {
-      name: "Full-set with GEL color",
-      price: "$30",
+      name: "SQUARE/ SQUOVAL",
+      price: "$0+",
     },
     {
-      name: "Pink-n-White Full",
-      price: "$30",
+      name: "ROUNDED / OVAL",
+      price: "$0+",
     },
     {
-      name: "Pink-n-White Fill",
-      price: "$30",
+      name: "ALMOND",
+      price: "$10+(Full set)/ $5+ (Fill-ins)",
     },
     {
-      name: "Natural set with clear gel Full",
-      price: "$30",
+      name: "COFFIN",
+      price: "$10+(Full set)/ $5+ (Fill-ins)",
     },
     {
-      name: "Natural set with clear gel Fill",
-      price: "$30",
-    },
-    {
-      name: "Special Shape Extra Full/ Fill",
-      price: "$30",
-      description: ["Stiletto, Coffin, Pointing, Almond…"],
+      name: "STILETTO",
+      price: "$10+(Full set)/ $5+ (Fill-ins)",
     },
   ],
 };
@@ -41,8 +36,8 @@ const LightConceptGel = () => {
       <div className={s.spaServices}>
         <div className={s.viewTop}>
           <HeadingText
-            title="Light Concept Gel"
-            desc="It is natural looking, shining and flexible, non-yellowing on clear, pink & white or gel color as well.."
+            title="Nails shape/length"
+            desc="Price may vary depending on length of nails"
           />
         </div>
         <Row gutter={[30, 8]}>

@@ -8,40 +8,58 @@ import ServiceList from "../ServiceList";
 const dataList = {
   serviceList: [
     {
-      name: "Full set Regular Polish",
-      price: "$30",
-      description: [],
+      name: "Full set/ Overlay",
+      price: "$38",
     },
     {
-      name: "Fill-ins Regular Polish",
-      price: "$30",
-      description: [],
+      name: "Fill-ins",
+      price: "$28",
     },
     {
-      name: "Full Set Acrylic Color",
-      price: "$30",
-      description: [],
-    },
-
-    {
-      name: "Full Set Acrylic with Gel Polish",
-      price: "$30",
-      description: [],
+      name: "White tips (Full set)y",
+      price: "$45",
     },
     {
-      name: "Acrylic Powder Color",
-      price: "$30",
-      description: [],
+      name: "Gel Full set",
+      price: "$55",
     },
     {
-      name: "Special Shape",
-      price: "$30",
-      description: ["Stiletto, Coffin, Pointing, Almond…"],
+      name: "Gel Fill-ins",
+      price: "$45",
     },
     {
-      name: "White Tips (Full set)",
+      name: "OmbréFull set",
+      price: "$65+",
+    },
+    {
+      name: "Ombré2 colors fill-ins",
+      price: "$55+",
+    },
+    {
+      name: "Ombré1 colors fill-ins",
+      price: "$42+",
+    },
+    {
+      name: "Acrylic remove only",
+      price: "$10",
+    },
+    {
+      name: "Cut & Shape on Acrylic ",
+      price: "$12",
+    },
+    {
+      name: "Gel color change on Acrylic",
       price: "$30",
-      description: [],
+    },
+    {
+      name: "Acrylic Add-ons:",
+      description: [
+        "Add $5 for French Polish",
+        "Add $5+ for Nail Design",
+        "Add $2/ea. for 3 or More Colors",
+        "Acrylic repairs $5/ea.",
+        "Special Shape  $10+(Full set)/$5+(Fill-ins)",
+      ],
     },
   ],
 };

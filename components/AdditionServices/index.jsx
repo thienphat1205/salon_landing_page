@@ -8,45 +8,24 @@ import ServiceList from "../ServiceList";
 const dataList = {
   serviceList: [
     {
-      name: "Nails repair",
-      price: "$30",
+      name: "Nails trimming and shaping",
+      price: "$10+",
     },
     {
-      name: "French design",
-      price: "$30",
+      name: "Regular color change | Hands",
+      price: "$10",
     },
     {
-      name: "Nail design",
-      price: "$30",
-    },
-
-    {
-      name: "Gel Color take-off",
-      price: "$30",
+      name: "Regular color change | Toes",
+      price: "$15",
     },
     {
-      name: "Regular Polish Change Hands",
-      price: "$30",
+      name: "Nails trimming and shaping| Hands",
+      price: "$8",
     },
     {
-      name: "Regular Polish Change Toes",
-      price: "$30",
-    },
-    {
-      name: "Acrylic take-off",
-      price: "$30",
-    },
-    {
-      name: "Dipping Powder (SNS) take-off",
-      price: "$30",
-    },
-    {
-      name: "Gel Polish Change Hands",
-      price: "$30",
-    },
-    {
-      name: "Gel Polish Change Toes",
-      price: "$30",
+      name: "Nails trimming and shaping| Feet",
+      price: "$12",
     },
   ],
 };

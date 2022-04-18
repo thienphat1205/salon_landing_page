@@ -1,9 +1,8 @@
 import Cover from "../components/Cover";
-import DeluxeSpaServices from "../components/DeluxeSpaServices";
+import Pedicure from "../components/Pedicure";
 import MainLayout from "../layout/MainLayout";
-import SpaManicure from "../components/SpaManicure";
-import SpecialCombo from "../components/SpecialCombo";
-import DippingPowder from "../components/DippingPowder ";
+import Manicure from "../components/Manicure";
+import DippingPowder from "../components/DippingPowder";
 import AcrylicNails from "../components/AcrylicNails";
 import PinknWhite from "../components/PinknWhite";
 import LightConceptGel from "../components/LightConcept";
@@ -17,16 +16,14 @@ export default function Home() {
   return (
     <MainLayout>
       <Cover />
-      <DeluxeSpaServices />
-      <SpaManicure />
-      <SpecialCombo />
+      <Pedicure />
       <DippingPowder />
+      <Manicure />
       <AcrylicNails />
       <PinknWhite />
-      {/* Ombré nails */}
-      <LightConceptGel />
-      <AdditionServices />
       <KidServices />
+      <AdditionServices />
+      <LightConceptGel />
       <Santitation />
       <Map />
       <Footer />
